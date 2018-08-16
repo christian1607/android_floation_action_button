@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabRegistrarContraste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="180dp"
+        app:srcCompat="@drawable/ic_registrar_contraste"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="@color/colorCeleste"
+        android:background="@color/colorCeleste"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAgregarEvidencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/ic_evidencias"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="@color/colorVerde"
+        android:visibility="invisible"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_plus"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        />
+</android.support.design.widget.CoordinatorLayout>
